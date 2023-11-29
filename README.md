@@ -10,6 +10,11 @@ based on [gruvbox](https://github.com/morhetz/gruvbox/).
  - To be able to display fonts, you need to install [Awesome Font](https://archlinux.org/packages/extra/any/ttf-font-awesome/).
  - To be able to modify the status bar, make sure  [xcompmgr](https://wiki.archlinux.org/title/xcompmgr) is installed. 
 
+## Installed Patches
+ - bar-height-spacing
+ - color-bar
+ - useless-gap
+
 
 ## Installation
 Edit config.mk to match your local setup (dwm is installed into
