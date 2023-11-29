@@ -9,7 +9,8 @@ Wallpaper by [jefferyodom](https://wallpapersafari.com/w/ESgNJ5)
 ## Requirements
  - In order to build dwm you need the Xlib header files. 
  - To be able to display fonts, you need to install [Awesome Font](https://archlinux.org/packages/extra/any/ttf-font-awesome/).
- - To be able to modify the status bar, make sure  [xcompmgr](https://wiki.archlinux.org/title/xcompmgr) is installed. 
+ - To be able to modify the status bar, make sure  [xcompmgr](https://wiki.archlinux.org/title/xcompmgr) is installed.
+ - The status bar volume uses *pactl* so you might need to install the `pulse-audio` package or simply remove the line in `dwm-status-bar`.
 
 ## Installed Patches
  - bar-height-spacing
@@ -42,7 +43,7 @@ the DISPLAY environment variable is set correctly, e.g.:
  DISPLAY=foo.bar:1 exec dwm
 ```
 
-The status bar bash script is saved in `dwm-status-bar`. To install it to your machine, add this to your `.xinitrc`
+The status bar bash script is saved in `dwm-status-bar`. To install it to your machine, add this to your `.xinitrc` 
 ```
 [ -f "path to repo"/dwm-status-bar ] && . "path to repo "/dwm-status-bar
 ```
