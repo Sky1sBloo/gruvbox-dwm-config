@@ -3,7 +3,7 @@ dwm is an extremely fast, small, and dynamic window manager for X. This is the c
 based on [gruvbox](https://github.com/morhetz/gruvbox/).
 
 ## Screenshots
-![Sample Image](https://imgur.com/a/ZztcVDE);
+![Sample Image](https://i.imgur.com/DL3A7Zj.png)
 
 ## Requirements
  - In order to build dwm you need the Xlib header files. 
