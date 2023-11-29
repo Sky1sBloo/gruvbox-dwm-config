@@ -4,6 +4,7 @@ based on [gruvbox](https://github.com/morhetz/gruvbox/).
 
 ## Screenshots
 ![Sample Image](https://i.imgur.com/DL3A7Zj.png)
+Wallpaper by jefferyodom - https://wallpapersafari . com/w/ESgNJ5
 
 ## Requirements
  - In order to build dwm you need the Xlib header files. 
