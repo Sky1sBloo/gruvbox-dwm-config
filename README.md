@@ -9,7 +9,7 @@ Wallpaper by [jefferyodom](https://wallpapersafari.com/w/ESgNJ5)
 ## Requirements
  - In order to build dwm you need the Xlib header files. 
  - To be able to display fonts, you need to install [Awesome Font](https://archlinux.org/packages/extra/any/ttf-font-awesome/).
- - To be able to modify the status bar, make sure  [xcompmgr](https://wiki.archlinux.org/title/xcompmgr) is installed.
+ - To be able to modify the status bar, make sure [xsetroot](https://www.x.org/archive/X11R7.5/doc/man/man1/xsetroot.1.html) is installed.
  - The status bar volume uses *pactl* so you might need to install the `pulse-audio` package or simply remove the line in `dwm-status-bar`.
 
 ## Installed Patches
